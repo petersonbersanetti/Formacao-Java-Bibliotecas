@@ -13,5 +13,4 @@ public class ContaEspecial extends Conta {
 		super.saldo += valor;
 		// nao deixa caso nao tenha protected na frente pq o saldo só é visivel dentro do pacote dele.
 	}
-
 }
