@@ -53,6 +53,26 @@ public class TesteString {
 		System.out.println(outra1);
 		System.out.println(outra2);
 		System.out.println(outra3);
+		
+		
+		StringBuilder builder = new StringBuilder("Socorram"); //concatenando string
+		builder.append("-");
+		builder.append("me");
+		builder.append(", ");
+		builder.append("subi ");
+		builder.append("no ");
+		builder.append("ônibus ");
+		builder.append("em ");
+		builder.append("Marrocos");
+		String texto = builder.toString();
+		System.out.println(texto);
+		
+		String nome5 = "ALURA";
+		CharSequence cs = new StringBuilder("al");
+
+		nome5 = nome5.replace("AL", cs);
+
+		System.out.println(nome5);
 
 	}
 
