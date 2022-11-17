@@ -69,9 +69,7 @@ public class TesteString {
 		
 		String nome5 = "ALURA";
 		CharSequence cs = new StringBuilder("al");
-
 		nome5 = nome5.replace("AL", cs);
-
 		System.out.println(nome5);
 
 	}
