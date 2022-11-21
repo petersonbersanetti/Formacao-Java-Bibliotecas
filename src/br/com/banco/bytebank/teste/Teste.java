@@ -25,7 +25,6 @@ public class Teste {
 		for (int i = 0; i < idades.length; i++) {
 			idades[i] = i * i;
 			System.out.println(idades[i]);
-
 		}
 
 	}
